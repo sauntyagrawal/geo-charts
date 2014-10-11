@@ -1,0 +1,34 @@
+﻿/******************************
+    Author: Subhendu Saha
+    File created on 4/13/2014
+******************************/
+
+#container {
+    display: block;
+    padding-bottom: 5;
+}
+#map-canvas path:hover {
+    fill:red;
+}
+#back-btn {
+    float: left;
+    width: 200px;
+}
+#back-btn button{
+    color: #000;
+    background-color: #dcdcdc;
+    border: 1px solid #666;
+}
+#back-btn button:hover{
+    font-weight: bold;
+}
+#label {
+    text-indent: 100px;
+    font-family: Verdana, Geneva, sans-serif
+}
+#error {
+    text-indent: 300px;
+    color: red;
+    font-size: smaller;
+    font-family: Verdana, Geneva, sans-serif
+}
